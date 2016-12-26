@@ -1,11 +1,41 @@
 /*VLT CSS*/
-
-.no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+body {
+	font-family: 'Open Sans', sans-serif;
 }
 
-.test {
+.navbar {
+	margin-bottom: 0;
+}
 
-	
+.slack-bg {
+	/*background-color: red;*/
+	margin-bottom: 50px;
+}
+
+.slack-imgs {
+	width: 50%;
+	height: auto;
+}
+
+h1 {
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 25px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 130%;
+}
+
+.slack-feature {
+	/*background: rgba(58,163,227,.1);*/
+	/*border-radius: 15px;*/
+	padding: 10px 25px;
+}
+
+.why-img {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
 }
